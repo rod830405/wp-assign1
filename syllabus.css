@@ -106,6 +106,10 @@ a:link {
     color: green;
 }
 
+a:visited{
+    color: blue;
+}
+
 a:hover {
     color: red;
 }
@@ -113,9 +117,7 @@ a:hover {
 a:active {
     color: yellow;
 }
-a:visited{
-    color: blue;
-}
+
 .form{
   background-color:white;
   text-align:center;
