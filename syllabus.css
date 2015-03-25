@@ -1,0 +1,31 @@
+article{
+ background:url(http://subtlepatterns.com/patterns/footer_lodyas.png);
+}
+h2,h4{
+  font-family:Microsoft JhengHei;
+  text-align:center;
+  font-size:2em;
+  color:#000000;
+  background-color:#ffffff;
+  -webkit-border-radius: 200px 10px;
+  border-radius: 200px 10px;
+  width:70%;
+  padding:10px;
+  margin:auto;
+}
+p,ul,ol{
+  //background-color:#ffffff;
+  font-size:1em;
+  color:white;
+  width:85%;
+  margin:auto;
+  font-family:Microsoft JhengHei;
+  padding:20px;
+  list-style-type:none;
+}
+.info{
+  display:inline-block;
+  width:30%;
+  margin:5px 7.5%;
+  
+}
