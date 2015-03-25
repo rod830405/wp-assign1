@@ -101,3 +101,24 @@ ol.boxes-list>li:nth-child(5)>label{
 ol.boxes-list>li>label{
     margin-right:40px;
 }
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+a:visited{
+    color: blue;
+}
+.form{
+  background-color:white;
+  text-align:center;
+  margin:10px 35%;
+  width:200px;
+}
