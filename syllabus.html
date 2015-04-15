@@ -3,13 +3,16 @@
 <head>
   <meta charset="utf-8">
   <title>Web Programming</title>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" type="text/css" href="syllabus.css">
 </head>
 <body>
   <article>
-    <br>
-  <header><h2>Web Programming課程教學大綱</h2></header>
-  <ul>
+  <header class="navbar-header">
+      <h1 class="container-fluid">Web Programming<br>課程教學大綱</h1></header>
+   
+    
+ <ul>
     <li>
       <span class="info">學年學期 Academic Year103</span>
       <span class="info2">103學年度第2學期	Spring Semester, 2015</span>
@@ -40,16 +43,29 @@
     </li>
     <li>
       <span class="info">先修科目 Prerequisite(s)</span>
-      <span class="info2"><a href="http://cis.nccu.edu.tw/CourseMap/Students/CourseDetail.aspx?schYy=103&schSmt=2&subNum=781007&subGop=00&smt=1&teaNum=115114">點閱核心能力分析圖與授課方式比例圖</a></span>
-    <div class="form"><a href="http://rod830405.github.io/wp-assign1/form.html">選課表單在此</a></div>
-    <br>
-  <div><h4>課程目標 Course objectives</h4></div>
-    <p>本課程旨在介紹WWW的基本運作原理並以其為平台開發應用程式，包含HTML5/CSS3動態網頁製作、網頁物件模型(DOM)、JavaScript程式設計與雲端應用等。</p>
+      <span class="info2"><a href="http://cis.nccu.edu.tw/CourseMap/Students/CourseDetail.aspx?schYy=103&schSmt=2&subNum=781007&subGop=00&smt=1&teaNum=115114">點閱核心能力分析圖與授課方式比例圖</a></span></ul>
+    
+   <div class="container-fluid"> 
+    <ul class="nav nav-tabs" id="tab">
+  <li><a data toggle="tab" herf="#goal" class="active">課程目標</a></li>
+  <li><a data toggle="tab" herf="#summary">課程大綱</a><li>
+  <li><a data toggle="tab" herf="#progress">上課進度</a></li>
+  <li><a data toggle="tab" herf="#way">教學方式</a><li>
+  <li><a data toggle="tab" herf="#assistant">教學助理工作項目</a><li>
+  <li><a data toggle="tab" herf="#needs">課程要求</a></li>
+  <li><a data toggle="tab" herf="#books">參考書目</a></li>
+  <li><a data toggle="tab" href="http://rod830405.github.io/wp-assign1/form.html">選課表單</a></li>
+    </nav></div>
+    
+    <div class="tab-content">
+      
+      <div class="tab-pane active" id="goal">
+    <p>本課程旨在介紹WWW的基本運作原理並以其為平台開發應用程式，包含HTML5/CSS3動態網頁製作、網頁物件模型(DOM)、JavaScript程式設計與雲端應用等。</p></div>
 
-  <div><h4>課程大綱 Course Description</h4></div>
-    <p>本課程涵蓋網路平台之最新技術如HTML5, CSS3, Javascript, JSON, JQuery等，並介紹國內外網站及網路行銷活動範例，培養學生網頁應用程式之開發能力及資訊架構設計能力，最後能設計兼具功能與美感的動態網站。</p>
-
-  <div><h4>上課進度 Class schedule</h4>
+    <div class="tab-pane" id="summary"><h4>課程大綱 Course Description</h4>
+    <p>本課程涵蓋網路平台之最新技術如HTML5, CSS3, Javascript, JSON, JQuery等，並介紹國內外網站及網路行銷活動範例，培養學生網頁應用程式之開發能力及資訊架構設計能力，最後能設計兼具功能與美感的動態網站。</p></div>
+    
+    <div class="tab-pane" id="progress"><h4>上課進度 Class schedule</h4>
     <ol class="boxes-list"> 
       <li> Course Introduction / Git </li>
       <li> HTML5</li> 
@@ -70,19 +86,21 @@
       <li> Google Analytics </li>
       <li> Final demo</li></ol></div>
 
-  <div><h4>教學方式 Teaching approach</h4></div>
-    <p>課堂教授、作品展示、工具教學、個案討論、作業練習、期末分組展示。</p>
+    <div class="tab-pane" id="way"><h4>教學方式 Teaching approach</h4>
+    <p>課堂教授、作品展示、工具教學、個案討論、作業練習、期末分組展示。</p></div>
 
-  <div><h4>教學助理工作項目 Teaching assistant tasks</h4></div>
-    <p>批改考卷及平時作業評量</p>
+    <div class="tab-pane" id="assistant"><h4>教學助理工作項目 Teaching assistant tasks</h4>
+    <p>批改考卷及平時作業評量</p></div>
 
-  <div><h4>課程要求/評分標準 Course requirements/Grading standards</h4></div>
-    <p>課堂作業(35%) 、期中作業(20%)及期末實作成品成果展示(30%)</p>
+    <div class="tab-pane" id="needs"><h4>課程要求/評分標準 Course requirements/Grading standards</h4>
+    <p>課堂作業(35%) 、期中作業(20%)及期末實作成品成果展示(30%)</p></div>
 
-  <div><h4>參考書目 Textbook & references </h4></div>
+
+    <div class="tab-pane" id="books"><h4>參考書目 Textbook & references </h4>
     <ul>
       <li>Eric Freeman, Elisabeth Robson(2011), Head First HTML5 Programming: Building Web Apps with JavaScript, O'Reilly </li>
-      <li> Crockford Douglas, JavaScript: The Good Parts, O'Reilly</li>
+      <li> Crockford Douglas, JavaScript: The Good Parts, O'Reilly</li></div>
     </ul>
+   </div>
 </body>
 </html>
